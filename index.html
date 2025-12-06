@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We're sorry to see you go</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+            font-family: Roboto, Arial, sans-serif;
+        }
+
+        #main {
+            min-height: 100vh;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            height: min-content;
+            overflow: clip;
+            background-color: #f6f6f6;
+            display: flex;
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 7px;
+            width: 100%;
+            padding: 20px 20px 0 20px;
+            position: relative;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            position: relative;
+            overflow: visible;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative;
+            font-size: 28px;
+            line-height: 1.6em;
+            text-align: center;
+            color:#444444;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="hero">
+            <div class="hero-content">
+                <div class="hero-title">We're sorry to see you go</div>
+            </div>
+            <iframe width="640" height="800" style="border: none;" src="https://docs.google.com/forms/d/e/1FAIpQLSdGLsqK4YK_MSRCZB0_vinSJiALPBZEGqEYvbWKoUWtz4O4MQ/viewform?usp=dialog">Loading...</iframe>
+        </div>
+    </div>
+</body>
+</html>

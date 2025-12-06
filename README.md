@@ -1,1 +1,1 @@
-# uninstall_page
+It's an uninstall page for Email Signature Maker chrome extension
